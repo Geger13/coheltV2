@@ -11,7 +11,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 
 HF_API_URL = "https://geryuga-coheltfastapi.hf.space/predict"
-CONFIDENCE_THRESHOLD = 70.0
+CONFIDENCE_THRESHOLD = 80.0
 
 DESCRIPTIONS = {
     "black_pod_rot": {
