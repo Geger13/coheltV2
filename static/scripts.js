@@ -82,7 +82,7 @@ async function classifyImage() {
 
       resultText.innerHTML = `
         <b>Kelas:</b> ${d.nama || data.class}<br>
-        <b>Akurasi:</b> ${data.confidence}%<br><br>
+        <b>Confidence Score:</b> ${data.confidence}%<br><br>
         <b>Deskripsi:</b> ${d.deskripsi || "-"}
         <br><b>Penanganan:</b>
         <ul>
